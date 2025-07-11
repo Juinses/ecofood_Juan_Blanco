@@ -1,26 +1,19 @@
-import { Header } from './components/Header.jsx'
-import { ProductCard } from './components/ProductoCard.jsx';
-import { Formulario } from './components/formulario.jsx';
-import './App.css'
+import React from 'react';
+import { Header } from './components/Header';
+import { Formulario } from './components/formulario';
+import { AgregarProductoModal } from './components/modalProducto';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Formulario />
-    
-      <ProductCard 
-        title="Producto 1" 
-        image="https://via.placeholder.com/150" 
-        description="Descripción del producto 1" 
-      />
-      <ProductCard 
-        title="Producto 2" 
-        image="https://via.placeholder.com/150" 
-        description="Descripción del producto 2" 
-      />
+    <div className="min-vh-100 d-flex flex-column justify-content-center align-items-center" style={{ backgroundColor: '#e6f4ea' }}>
+      <div className="text-center p-4 bg-white rounded shadow" style={{ width: '90%', maxWidth: '600px' }}>
+        <Header />
+        <Formulario />
+        <AgregarProductoModal />
+      </div>
     </div>
   );
 }
 
-export default App
+export default App;
