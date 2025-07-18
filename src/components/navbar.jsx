@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg" style={{ backgroundColor: '#2e7d32' }}>
       <div className="container">
         <Link className="navbar-brand text-white fw-bold" to="/" style={{ fontSize: '1.5rem' }}>
-          Ecofood
+          Barra de navegacion de Ecofood
         </Link>
         <button
           className="navbar-toggler"
