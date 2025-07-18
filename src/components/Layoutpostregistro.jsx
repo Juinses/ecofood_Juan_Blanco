@@ -71,7 +71,7 @@ export function Layoutpost() {
         }}
       >
         <header style={{ marginBottom: '30px' }}>
-          <h1 style={{ color: '#2f7a20', fontWeight: '700' }}>¡Bienvenido a EcoFood!</h1>
+          <h1 style={{ color: '#2f7a20', fontWeight: '700' }}> !Nos alegra tu presencia disfruta en nuestra pagina principal! </h1>
           <hr style={{ borderColor: '#4caf50', borderWidth: '2px', maxWidth: '120px', marginLeft: 0 }} />
         </header>
         <Outlet /> {/* Aquí se renderizan las rutas hijas */}

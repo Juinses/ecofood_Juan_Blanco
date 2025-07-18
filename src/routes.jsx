@@ -4,6 +4,7 @@ import { Layoutpre } from './components/Layoutpreregistro';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Profile from './pages/profile';
 
 function AppRoutes() {
   return (
@@ -11,6 +12,7 @@ function AppRoutes() {
       {/* Rutas con Layoutpost para la raíz */}
       <Route path="/" element={<Layoutpost />}>
         <Route index element={<Home />} />
+        <Route path="profile" element={<Profile />} />
       </Route>
 
       {/* Rutas con Layoutpre para login y registro */}
